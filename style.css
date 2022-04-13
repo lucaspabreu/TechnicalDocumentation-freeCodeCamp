@@ -1,0 +1,36 @@
+body {
+  box-sizing: border-box;
+}
+nav {
+  display: block;
+  position: fixed;
+}
+
+.nav-link {
+  list-style: none;
+}
+
+main {
+  margin-left: 300px;
+}
+
+header {
+  font-size: 2rem;
+}
+
+code {
+  display: block;
+  background-color: beige;
+  margin: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  main {
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 200px;
+  }
+}
