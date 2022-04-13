@@ -1,17 +1,22 @@
 body {
   box-sizing: border-box;
+  margin-left: 30px;
 }
 nav {
-  display: block;
   position: fixed;
+  border: solid 1px;
+  width: 290px;
+  box-shadow: 1px 1px 5px;
+  border-color: gray;
 }
 
-.nav-link {
+li {
   list-style: none;
+  padding-bottom: 10px;
 }
 
 main {
-  margin-left: 300px;
+  margin-left: 350px;
 }
 
 header {
@@ -29,8 +34,11 @@ code {
 
 @media (max-width: 800px) {
   main {
-    position: fixed;
+    position: absolute;
     margin-left: 0px;
-    margin-top: 200px;
+    margin-top: 250px;
+  }
+  nav {
+    position: absolute;
   }
 }
